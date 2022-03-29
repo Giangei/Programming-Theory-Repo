@@ -1,0 +1,539 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'it' Physical Memory: 16336 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+I:\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+I:/GitHubRepo/Programming-Theory-Repo/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59169
+Successfully changed project path to: I:/GitHubRepo/Programming-Theory-Repo/My project
+I:/GitHubRepo/Programming-Theory-Repo/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path I:/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path I:/GitHubRepo/Programming-Theory-Repo/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   30.0.14011.3017
+Initialize mono
+Mono path[0] = 'I:/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'I:/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'I:/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: I:/2020.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: I:/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: I:/2020.3.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.007602 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.404 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3405ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1494ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1212ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3373.
+Total: 3.779700 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.076700 ms MarkObjects: 3.296800 ms  DeleteObjects: 0.087700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Asset Unlock - 3D Prototyping/Scripts/ThirdPersonController.cs
+  artifactKey: Guid(38f754c33d3312e409fddb2725b41b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Scripts/ThirdPersonController.cs using Guid(38f754c33d3312e409fddb2725b41b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a2b5338214fbf20405d0c953379990') in 0.099038 seconds 
+  Import took 0.151018 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.2 MB.
+System memory in use after: 67.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3373.
+Total: 4.029000 ms (FindLiveObjects: 0.335300 ms CreateObjectMapping: 0.086500 ms MarkObjects: 3.582200 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1153.463950 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Scripts
+  artifactKey: Guid(7640d7b3890e0774c8ed7fa2cd47db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Scripts using Guid(7640d7b3890e0774c8ed7fa2cd47db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc90de5d6ea45baca4e5cb2329e2a9f') in 0.007777 seconds 
+  Import took 0.092014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.519098 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Scripts/Enemy.cs
+  artifactKey: Guid(d1716d074e1e91946851ee33fbdf7e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Scripts/Enemy.cs using Guid(d1716d074e1e91946851ee33fbdf7e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056ccd3b37ea4511e4e8508c19421db9') in 0.009733 seconds 
+  Import took 0.036802 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.123208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1469ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1214ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.1 MB.
+System memory in use after: 123.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 3.683200 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.094700 ms MarkObjects: 3.258700 ms  DeleteObjects: 0.025700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2415.981657 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Settings/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(1fc187d3514d7824dbf7bea6adfeedc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Settings/UniversalRenderPipelineAsset_Renderer.asset using Guid(1fc187d3514d7824dbf7bea6adfeedc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab8d3524ba3cdaff0022e40e933933f') in 0.061516 seconds 
+  Import took 0.091300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.009296 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Materials/Environment
+  artifactKey: Guid(cf214ec9091f05e46a711276b4e8c814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Materials/Environment using Guid(cf214ec9091f05e46a711276b4e8c814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e7bf800f35067d35e3db0ecf7a6c4f') in 0.011665 seconds 
+  Import took 0.028960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.784664 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment
+  artifactKey: Guid(4a1c864423fe41f4fb630f19769819eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment using Guid(4a1c864423fe41f4fb630f19769819eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d96915832ec78dc85d3428ff70f241') in 0.004483 seconds 
+  Import took 0.046612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418469 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/Block.FBX
+  artifactKey: Guid(34280df3a4c5cfb43999bae498b30eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/Block.FBX using Guid(34280df3a4c5cfb43999bae498b30eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a04cc2820caedd52579868739b29b1e') in 0.915298 seconds 
+  Import took 0.941759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallArch.FBX
+  artifactKey: Guid(69bbaf58db48e7f40ab082809ef33c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallArch.FBX using Guid(69bbaf58db48e7f40ab082809ef33c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b1f53c592204613eabe5fb29596b71') in 0.080174 seconds 
+  Import took 0.094116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/MovingPlatform.fbx
+  artifactKey: Guid(3e74680ba5adf184093ccbe033f44785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/MovingPlatform.fbx using Guid(3e74680ba5adf184093ccbe033f44785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ba5c4a92a28d548092a4ab84b409fb') in 0.105004 seconds 
+  Import took 0.136789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallRailing.fbx
+  artifactKey: Guid(9ffa81f04b8d1cf4e8e233ec336f7f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallRailing.fbx using Guid(9ffa81f04b8d1cf4e8e233ec336f7f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb38e6bb6acf2cb492528246c04b507') in 0.112889 seconds 
+  Import took 0.118295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/RampLarge.fbx
+  artifactKey: Guid(88898fc5a2011ec4fbee7819978422cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/RampLarge.fbx using Guid(88898fc5a2011ec4fbee7819978422cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c3b186d38e13887413badcc8243ce1') in 0.085733 seconds 
+  Import took 0.109853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallStraightTall.fbx
+  artifactKey: Guid(ab8d2a9a35b3ffc4a8439c030f8446f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallStraightTall.fbx using Guid(ab8d2a9a35b3ffc4a8439c030f8446f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e88cd15855fc3b1ca616a9b2c8b4447') in 0.115262 seconds 
+  Import took 0.147201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallStraightShortTall.fbx
+  artifactKey: Guid(ed6909be2d4b4de46ac4933d5c2a7910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallStraightShortTall.fbx using Guid(ed6909be2d4b4de46ac4933d5c2a7910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0748e26b57fadfd7f182f9f017dec9') in 0.054905 seconds 
+  Import took 0.089129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallStraightShort.FBX
+  artifactKey: Guid(da53a2c2dab9c5b48bffc3f8f836f216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallStraightShort.FBX using Guid(da53a2c2dab9c5b48bffc3f8f836f216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb517374812c8fa4350a793e8dcb24ab') in 0.069329 seconds 
+  Import took 0.092660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/Door.fbx
+  artifactKey: Guid(fab9875d285db6f478ec8c53205ede3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/Door.fbx using Guid(fab9875d285db6f478ec8c53205ede3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f70cfb7adf4b4244a23d707c44f4857') in 0.084812 seconds 
+  Import took 0.107696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallColumn.FBX
+  artifactKey: Guid(2bb6073e34257dd4988fe6290d3360a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallColumn.FBX using Guid(2bb6073e34257dd4988fe6290d3360a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbec4507b0c7774bd1882274010d699d') in 0.060209 seconds 
+  Import took 0.079730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallCorner.FBX
+  artifactKey: Guid(920b48bbac91d2f4dbea698ceb5e1af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallCorner.FBX using Guid(920b48bbac91d2f4dbea698ceb5e1af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f07d4a586a9115a132daad3f9d3875') in 0.179031 seconds 
+  Import took 0.184040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallStraight.fbx
+  artifactKey: Guid(21805eab2d6825a4089c791219aa226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallStraight.fbx using Guid(21805eab2d6825a4089c791219aa226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d84af588b7cd6626d3ae8560fa61ce') in 0.062816 seconds 
+  Import took 0.215272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallCurved.FBX
+  artifactKey: Guid(2c11740ad471cef4181979f12cfac90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallCurved.FBX using Guid(2c11740ad471cef4181979f12cfac90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb6ffba8cbf42e6f13d63316dbcb7f3') in 0.057912 seconds 
+  Import took 0.072547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallCornerShort.FBX
+  artifactKey: Guid(5535d159d78536d4d96c1a81454e027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/WallCornerShort.FBX using Guid(5535d159d78536d4d96c1a81454e027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3fc8ddf9417e550e0663f298cdb960') in 0.049425 seconds 
+  Import took 0.055167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/Ramp.FBX
+  artifactKey: Guid(5f5f6366ba268ac458c6f1045342a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/Ramp.FBX using Guid(5f5f6366ba268ac458c6f1045342a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2b90e374989f118fc5aea125143408') in 0.046913 seconds 
+  Import took 0.068819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/Steps.fbx
+  artifactKey: Guid(db943061f19b69d4292af40f2e56eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Models/Environment/Steps.fbx using Guid(db943061f19b69d4292af40f2e56eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f750c80a2c8ed24c230983e937d96a9') in 0.061622 seconds 
+  Import took 0.095343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.900787 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping
+  artifactKey: Guid(70d4e0049443ea749a4bacb7104c2a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping using Guid(70d4e0049443ea749a4bacb7104c2a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16ce588c24373f103afebf1d47ad562') in 0.008570 seconds 
+  Import took 0.013442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079681 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Block.prefab
+  artifactKey: Guid(207ade7b2f633eb468ca66c61473a72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Block.prefab using Guid(207ade7b2f633eb468ca66c61473a72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fec1beab6d5fe0e946a9a4a1fb5487') in 1.256192 seconds 
+  Import took 1.279101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Environment.prefab
+  artifactKey: Guid(02a3fadbfbe6636439813bc36180b0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Environment.prefab using Guid(02a3fadbfbe6636439813bc36180b0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29269944a459ea6e4be11d3f423e4835') in 0.740907 seconds 
+  Import took 0.778784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Steps.prefab
+  artifactKey: Guid(437e3fac1426ccd4ab74d5820eeb44c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Steps.prefab using Guid(437e3fac1426ccd4ab74d5820eeb44c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3194e07ed4d09c63c39985b4a0f842fb') in 0.039261 seconds 
+  Import took 0.069321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Ramp.prefab
+  artifactKey: Guid(d171ec5652f4bf146bb3af079472b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Ramp.prefab using Guid(d171ec5652f4bf146bb3af079472b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423af120b0859e9f2c46dcb81fbd7d50') in 0.021881 seconds 
+  Import took 0.029720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Doors.prefab
+  artifactKey: Guid(5c4c8dcc12aea744a8fd42b64f45aced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Doors.prefab using Guid(5c4c8dcc12aea744a8fd42b64f45aced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f3296214b300fd3911527f8b51cdc0') in 0.413143 seconds 
+  Import took 0.431959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallArch.prefab
+  artifactKey: Guid(1b5a0847849c8414c9cc3d2bdae8885c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallArch.prefab using Guid(1b5a0847849c8414c9cc3d2bdae8885c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643dc4190cb2e3fcc21ab17edd73ba0b') in 0.021382 seconds 
+  Import took 0.043452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Platform.prefab
+  artifactKey: Guid(4a6eeac5f9d52d5429d7ee5a399fa816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/Platform.prefab using Guid(4a6eeac5f9d52d5429d7ee5a399fa816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d09169fa152438004c42a804d15a963') in 0.357325 seconds 
+  Import took 0.382405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallColumn.prefab
+  artifactKey: Guid(76e71251832a680428509957b1c2d590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallColumn.prefab using Guid(76e71251832a680428509957b1c2d590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c484bfe501662ca80d3c43f8ef38412') in 0.018173 seconds 
+  Import took 0.030513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/RampLarge.prefab
+  artifactKey: Guid(04c867ff899fa1a4da509983d9d3c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/RampLarge.prefab using Guid(04c867ff899fa1a4da509983d9d3c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f26a33473eafbca9aa33d158fdc331') in 0.021222 seconds 
+  Import took 0.063086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129046 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallCorner.prefab
+  artifactKey: Guid(737e54f7cf918c341b7c1b8e0b5c2d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallCorner.prefab using Guid(737e54f7cf918c341b7c1b8e0b5c2d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c350145d0b65adbda79fa7a44af9ccf1') in 0.047468 seconds 
+  Import took 0.067740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallCornerShort.prefab
+  artifactKey: Guid(3d8a4062f9decd54c937bacc96967b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallCornerShort.prefab using Guid(3d8a4062f9decd54c937bacc96967b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5ef2bcff85148a827550bcab38e1c3') in 0.022312 seconds 
+  Import took 0.098855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallCurved.prefab
+  artifactKey: Guid(9e2b0132726d5064bab97974d8aac777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallCurved.prefab using Guid(9e2b0132726d5064bab97974d8aac777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854caa756917650bbd7007c78d47ffec') in 0.021209 seconds 
+  Import took 0.026544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196753 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallRailing.prefab
+  artifactKey: Guid(dbbda79a36e218049af7dd8ceb3820b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallRailing.prefab using Guid(dbbda79a36e218049af7dd8ceb3820b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9f68343f277e11c800c9503cf395f0') in 0.017930 seconds 
+  Import took 0.029993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallStraight.prefab
+  artifactKey: Guid(200e4cad0f905f24791cbd4a39d80432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallStraight.prefab using Guid(200e4cad0f905f24791cbd4a39d80432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb8a119942b4c0505e05d6f6440357d') in 0.034804 seconds 
+  Import took 0.060189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallStraightShort.prefab
+  artifactKey: Guid(5419e7945ce151a4bb8a6ffd512bdf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallStraightShort.prefab using Guid(5419e7945ce151a4bb8a6ffd512bdf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd97d98bf6cb41027414162c9296857') in 0.018946 seconds 
+  Import took 0.023680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246287 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallStraightShortTall.prefab
+  artifactKey: Guid(fe270ab6332a48a44841db3a436533fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallStraightShortTall.prefab using Guid(fe270ab6332a48a44841db3a436533fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa619fed9b90c0e02e454be82ebc20b') in 0.030992 seconds 
+  Import took 0.036066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallStraightTall.prefab
+  artifactKey: Guid(80d1367295ec94f4e8c7ee9b5f66079a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Unlock - 3D Prototyping/Prototyping Assets/Prefabs/Environment/LevelPrototyping/WallStraightTall.prefab using Guid(80d1367295ec94f4e8c7ee9b5f66079a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8091c2fdfc35cce2b4b11cd68fe937f9') in 0.020406 seconds 
+  Import took 0.061728 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

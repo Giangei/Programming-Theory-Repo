@@ -30,6 +30,17 @@ public class ThirdPersonController : MonoBehaviour
             playerVelocity.y = -0.5f;
         }
 
+        MoveOnInput();
+
+        Jump();
+        
+
+        playerVelocity.y += gravityValue * Time.deltaTime;
+
+        m_Controller.Move(playerVelocity * Time.deltaTime);
+    }
+    private void MoveOnInput()
+    {
         Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
         //trasnform input into camera space
@@ -37,10 +48,10 @@ public class ThirdPersonController : MonoBehaviour
         forward.y = 0;
         forward.Normalize();
         var right = Vector3.Cross(Vector3.up, forward);
-        
+
         Vector3 move = forward * input.z + right * input.x;
         move.y = 0;
-        
+
         m_Controller.Move(move * Time.deltaTime * playerSpeed);
 
         m_Animator.SetFloat("MovementX", input.x);
@@ -50,16 +61,14 @@ public class ThirdPersonController : MonoBehaviour
         {
             gameObject.transform.forward = forward;
         }
-
+    }
+    private void Jump()
+    {
         // Changes the height position of the player..
         if (Input.GetButtonDown("Jump") && groundedPlayer)
         {
             playerVelocity.y += Mathf.Sqrt(JumpForce * -3.0f * gravityValue);
             m_Animator.SetTrigger("Jump");
         }
-
-        playerVelocity.y += gravityValue * Time.deltaTime;
-
-        m_Controller.Move(playerVelocity * Time.deltaTime);
     }
 }
